@@ -52,7 +52,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:deveshpankaj/androidjs-builder"
+    "url": "git@github.com:sce9sc/androidjs-builder"
   },
   "files": [
     "src",
