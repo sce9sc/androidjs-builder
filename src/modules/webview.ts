@@ -32,23 +32,23 @@ const admZip = require('adm-zip');
  */
 export class Webview implements Interfaces.IBuilderModule {
     env: Interfaces.IEnv;
-    user: string = 'android-js';
+    user: string = 'sce9sc';
     sdk: Interfaces.IGithubRepoLink = {
-        user: 'android-js',
+        user: 'sce9sc',
         repo: 'androidjs-sdk'
     };
     example: Interfaces.IGithubRepoLink = {
-        user: 'android-js',
+        user: 'sce9sc',
         repo: 'webview-app-template'
     };
     apk_tool: Interfaces.GithubFileLink = {
-        user: 'android-js',
+        user: 'sce9sc',
         repo: 'androidjs-builder',
         dir: 'build_tools',
         file: 'apktool.jar'
     };
     apk_signer: Interfaces.GithubFileLink = {
-        user: 'android-js',
+        user: 'sce9sc',
         repo: 'androidjs-builder',
         dir: 'build_tools',
         file: 'uber-apk-signer-1.0.0.jar'
